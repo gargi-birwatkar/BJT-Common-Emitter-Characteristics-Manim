@@ -13,10 +13,9 @@ This project aims to demystify one of the most fundamental components in electro
 
 By exploring these animations, students will:
 
-- Understand the **structure of NPN and PNP BJTs**.
+- Understand the **structure of NPN  BJTs**.
 - Visualize **electron and hole flow** in **Active, Cutoff, and Saturation regions**.
 - Learn how to **plot and interpret input/output characteristics**.
-- Analyze **CE amplifier circuits** using **DC load lines and Q-points**.
 
 ---
 
@@ -28,7 +27,7 @@ The series is broken down into three logical parts, taking you from transistor p
 
 ### 1. The Transistor Uncovered: Structure and Basic Working
 
-Your introduction to BJTs! Visualize **NPN vs PNP devices** and understand the critical roles of the **Emitter, Base, and Collector**. Learn how a small base current controls a large collector current.  
+Your introduction to BJTs! Visualize **NPN device** and understand the critical roles of the **Emitter, Base, and Collector**. Learn how a small base current controls a large collector current.  
 
 ![BJT Structure Preview](media/bjt_structure_preview.gif)
 
