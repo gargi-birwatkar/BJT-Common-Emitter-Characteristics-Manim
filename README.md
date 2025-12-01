@@ -52,18 +52,10 @@ Explore the **Common Emitter configuration**, the foundation of transistor ampli
 | **Output Curve** | How $I_C$ changes with $V_{CE}$ for different $I_B$ values. |
 | **Operating Regions** | Visual animation of **Cutoff**, **Active**, and **Saturation** regions. |
 
+**File Name:
+   output curve:- outputchara.py
+   input curve:- input.py**
 ---
-
-### 3. Amplifier Analysis: Load Line and Q-Point
-
-Bridge theory with practice! Analyze a **CE amplifier circuit** using the **DC Load Line** on the output characteristics to determine the optimal **Q-Point** for distortion-free amplification.
-
-![Load Line Preview](media/load_line_preview.gif)
-
-| Analysis Tool | Formula and Purpose |
-| :--- | :--- |
-| **DC Load Line** | $V_{CE} = V_{CC} - I_C R_C$ (Defines the circuit limits) |
-| **Q-Point** | Optimal operating point for the transistor. |
 
 ---
 
@@ -71,11 +63,9 @@ Bridge theory with practice! Analyze a **CE amplifier circuit** using the **DC L
 
 This repository contains all the **Manim Python scripts** used to generate these animations:
 
-- `bjt_fundamentals.py`  
-- `ce_characteristics.py`  
-- `ce_amplifier_analysis.py`  
-
-**Static Charts:** High-quality PNGs of characteristic curves are included in the `media/` folder for quick reference.
+   bjt working and fundamentals:- project.py
+   output curve:- outputchara.py
+   input curve:- input.py
 
 ---
 
@@ -90,7 +80,7 @@ cd BJT-Animated
 pip install manim numpy
 
 # Render the first animation
-manim -pql bjt_fundamentals.py npntransistor
+manim -pql project.py npntransistor
 ````
 
 * Flags: `-p` → preview after rendering, `-ql` → quick low-quality render (use `-qm` or `-qh` for higher quality)
