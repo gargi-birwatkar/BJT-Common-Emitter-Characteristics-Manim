@@ -1,4 +1,8 @@
 # 🚀 BJT Animated: An Electronics Learning Series
+links: project.py- https://github.com/user-attachments/assets/626ba0ab-ebf6-417b-9ab0-8bdcf1f35b8c
+input.py- https://github.com/user-attachments/assets/7db6602f-c548-43fb-b092-cae3adb4f24e
+outputchara.py- https://github.com/user-attachments/assets/295946e2-c8fb-476c-8e0b-5b147409d794
+
 
 ![Python](https://img.shields.io/badge/python-3.11-blue)
 ![Manim](https://img.shields.io/badge/manim-Community-orange)
